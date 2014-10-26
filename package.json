@@ -1,0 +1,31 @@
+{
+  "name": "guideline",
+  "version": "0.0.0",
+  "description": "Flexible function argument type-checking and defaults",
+  "main": "lib/guideline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "grunt lodash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boneskull/guideline.git"
+  },
+  "author": "Christopher Hiller <chiller@badwing.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boneskull/guideline/issues"
+  },
+  "homepage": "https://github.com/boneskull/guideline",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-lodash": "^0.3.0",
+    "load-grunt-config": "^0.14.0",
+    "lodash-cli": "^2.4.2",
+    "time-grunt": "^1.0.0"
+  },
+  "dependencies": {
+    "type-of": "^2.0.1"
+  }
+}

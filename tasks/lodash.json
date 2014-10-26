@@ -1,0 +1,27 @@
+{
+  "main": {
+    "dest": "node_modules/lodash.js",
+    "options": {
+      "exports": "node",
+      "include": [
+        "defaults",
+        "identity",
+        "forEach",
+        "pick",
+        "filter",
+        "assign",
+        "toArray",
+        "flatten",
+        "contains",
+        "isEmpty",
+        "isObject",
+        "mapValues",
+        "max",
+        "keys"
+      ],
+      "flags": [
+        "--debug"
+      ]
+    }
+  }
+}
